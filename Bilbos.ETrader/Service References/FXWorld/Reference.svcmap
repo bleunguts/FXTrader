@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="653ef1f3-1c16-4e48-8ce0-cd622eb6a9fb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost/FXTrader/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ac0947ba-80bd-4c4a-980a-afd28709e311" SourceId="1" SourceUrl="net.tcp://localhost/FXTrader/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="21ccb9f8-89df-4aa7-84e0-6f512194536f" SourceId="1" SourceUrl="net.tcp://localhost/FXTrader/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="0a464470-2d29-49ae-8edd-e16219c5142e" SourceId="1" SourceUrl="net.tcp://localhost/FXTrader/mex" />
+    <MetadataFile FileName="FXTrader.Common.xsd" MetadataType="Schema" ID="ee6d12bd-216f-4bb8-bf8a-165f59f40c08" SourceId="1" SourceUrl="net.tcp://localhost/FXTrader/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

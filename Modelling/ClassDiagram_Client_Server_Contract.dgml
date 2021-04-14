@@ -1,0 +1,1186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @15 @36 @164)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ClientName" />
+    <Node Id="(@1 @15 @36 @186)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="PriceRequest" />
+    <Node Id="(@1 @15 @36 Member=(Name=set_CurrencyPair @159))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_CurrencyPair" />
+    <Node Id="(@1 @15 @36 Member=(Name=set_ProductType OverloadingParameters=[@46]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ProductType" />
+    <Node Id="(@1 @15 @38 @164)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ClientName" />
+    <Node Id="(@1 @15 @40 Member=(Name=set_AveragePrice @97))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_AveragePrice" />
+    <Node Id="(@1 @15 @40 Member=(Name=set_MaxPrice @97))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_MaxPrice" />
+    <Node Id="(@1 @15 @40 Member=(Name=set_MinPrice @97))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_MinPrice" />
+    <Node Id="(@1 @15 @42 @164)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ClientName" />
+    <Node Id="(@1 @15 @42 @186)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="PriceStatisticsRequest" />
+    <Node Id="(@1 @15 @42 Member=(Name=set_BuySell OverloadingParameters=[@16]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_BuySell" />
+    <Node Id="(@1 @15 @42 Member=(Name=set_CurrencyPair @159))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_CurrencyPair" />
+    <Node Id="(@1 @15 @42 Member=(Name=set_ProductType OverloadingParameters=[@46]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ProductType" />
+    <Node Id="(@1 @15 @44 @164)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ClientName" />
+    <Node Id="(@1 @15 @55 Member=(Name=set_SpreadInPips OverloadingParameters=[(@67 @64 Type=Int32)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_SpreadInPips" />
+    <Node Id="(@1 @15 @55 Member=get_SpreadInPips)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_SpreadInPips" />
+    <Node Id="(@1 @15 @57 @164)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ClientName" />
+    <Node Id="(@1 @15 @57 @186)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="TradeRequest" />
+    <Node Id="(@1 @15 @57 Member=(Name=set_BuySell OverloadingParameters=[@16]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_BuySell" />
+    <Node Id="(@1 @15 @57 Member=(Name=set_Price @139))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Price" />
+    <Node Id="(@1 @15 @57 Member=(Name=set_PriceTimestamp OverloadingParameters=[(@67 @64 Type=Int64)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_PriceTimestamp" />
+    <Node Id="(@1 @15 @57 Member=(Name=set_ProductType OverloadingParameters=[@46]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ProductType" />
+    <Node Id="(@1 @15 @57 Member=(Name=set_Quantity OverloadingParameters=[(@67 @64 Type=Int32)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Quantity" />
+    <Node Id="(@1 @15 @59 @164)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ClientName" />
+    <Node Id="(@1 @15 @59 Member=(Name=set_PriceTimestamp OverloadingParameters=[(@67 @64 Type=Int64)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_PriceTimestamp" />
+    <Node Id="(@1 @15 @59 Member=(Name=set_Quantity OverloadingParameters=[(@67 @64 Type=Int32)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Quantity" />
+    <Node Id="(@1 @15 @59 Member=(Name=set_TotalPrice @97))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_TotalPrice" />
+    <Node Id="(@1 @15 @59 Member=(Name=set_TransactionPrice @97))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_TransactionPrice" />
+    <Node Id="(@1 @15 @59 Member=(Name=set_TransactionPriceId OverloadingParameters=[(@67 @64 Type=Guid)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_TransactionPriceId" />
+    <Node Id="(@1 @15 @59 Member=get_PriceTimestamp)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_PriceTimestamp" />
+    <Node Id="(@1 @15 @59 Member=get_Quantity)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Quantity" />
+    <Node Id="(@1 @15 @59 Member=get_TotalPrice)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_TotalPrice" />
+    <Node Id="(@1 @15 @59 Member=get_TransactionPrice)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_TransactionPrice" />
+    <Node Id="(@1 @15 @59 Member=get_TransactionPriceId)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_TransactionPriceId" />
+    <Node Id="(@1)" Category="CodeSchema_Assembly" Visibility="Hidden" />
+    <Node Id="(@2 @11 @19 @185)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="static ClientSessions" />
+    <Node Id="(@2 @11 @30 Member=(Name=RequestPrice OverloadingParameters=[@37]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="RequestPrice" />
+    <Node Id="(@2 @11 @30 Member=(Name=RequestPriceStatistics OverloadingParameters=[@43]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="RequestPriceStatistics" />
+    <Node Id="(@2 @11 @30 Member=(Name=RequestTrade OverloadingParameters=[@58]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="RequestTrade" />
+    <Node Id="(@2 @11 @61 @185)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="static TradingService" />
+    <Node Id="(@2)" Category="CodeSchema_Assembly" Visibility="Hidden" />
+    <Node Id="(@3 @21 @22 Member=get_eTraderSupportedCurrencyPairs)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_eTraderSupportedCurrencyPairs" />
+    <Node Id="(@3 @4 @24 @185)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="static eTrader" />
+    <Node Id="(@3 @4 @47 @185)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="static RawSpotPriceService" />
+    <Node Id="(@3 @8 @13 Member=get_Count)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Count" />
+    <Node Id="(@3 @8 @34 @186)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="MovingStatisticsComposer" />
+    <Node Id="(@3 @8 @34 Member=(Name=whatsWrongwithThis OverloadingParameters=[(@63 @64 Type=(Name=IObservable @68 GenericArguments=[@50]))]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="whatsWrongwithThis" />
+    <Node Id="@10" Category="CodeSchema_Class" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="MovingStatisticsComposer.&lt;&gt;c__DisplayClassc" />
+    <Node Id="@101" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;PriceStatisticsSubscription&gt;b__9" />
+    <Node Id="@102" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;PriceStatisticsSubscription&gt;b__b" />
+    <Node Id="@103" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RawSpotPriceLoggingSubscription&gt;b__1" />
+    <Node Id="@104" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RawSpotPriceLoggingSubscription&gt;b__3" />
+    <Node Id="@106" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RequestPrice&gt;b__1" />
+    <Node Id="@107" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RequestPrice&gt;b__3" />
+    <Node Id="@108" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RequestPriceStatistics&gt;b__c" />
+    <Node Id="@109" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RequestPriceStatistics&gt;b__e" />
+    <Node Id="@110" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_TransactionPriceId" />
+    <Node Id="@111" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_PriceId" />
+    <Node Id="@112" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ClientSession" />
+    <Node Id="@113" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="AddStream" />
+    <Node Id="@115" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_Quantity" />
+    <Node Id="@116" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_SalesMarkupInPips" />
+    <Node Id="@117" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_SpreadInPips" />
+    <Node Id="@119" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;StartStreaming&gt;b__0" />
+    <Node Id="@12" Category="CodeSchema_Class" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="TradingService.&lt;&gt;c__DisplayClass9" />
+    <Node Id="@120" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;StartStreaming&gt;b__1" />
+    <Node Id="@121" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Count" />
+    <Node Id="@122" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_PriceTimestamp" />
+    <Node Id="@123" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ClientSession" />
+    <Node Id="@124" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_ClientCallback" />
+    <Node Id="@125" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetPriceResponseStream" />
+    <Node Id="@126" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="RequestPrice" />
+    <Node Id="@128" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;GetPriceStatisticsStream&gt;b__6" />
+    <Node Id="@129" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RequestPrice&gt;b__0" />
+    <Node Id="@130" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RequestPrice&gt;b__2" />
+    <Node Id="@131" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="PriceUpdated" />
+    <Node Id="@132" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="PriceUpdated" />
+    <Node Id="@133" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Statistics" />
+    <Node Id="@134" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="RequestPriceStatistics" />
+    <Node Id="@135" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RequestPriceStatistics&gt;b__b" />
+    <Node Id="@136" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RequestPriceStatistics&gt;b__d" />
+    <Node Id="@137" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="PriceStatisticsUpdated" />
+    <Node Id="@138" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="PriceStatisticsUpdated" />
+    <Node Id="@14" Category="CodeSchema_Struct" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="BidAskPriceStatistics" />
+    <Node Id="@140" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;GetPriceResponseStream&gt;b__0" />
+    <Node Id="@141" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;GetPriceResponseStream&gt;b__1" />
+    <Node Id="@142" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;otherOptimizedMethods&gt;b__4" />
+    <Node Id="@143" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;otherOptimizedMethods&gt;b__5" />
+    <Node Id="@144" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;otherOptimizedMethods&gt;b__6" />
+    <Node Id="@145" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;otherOptimizedMethods&gt;b__7" />
+    <Node Id="@146" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;otherOptimizedMethods&gt;b__8" />
+    <Node Id="@147" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;otherOptimizedMethods&gt;b__9" />
+    <Node Id="@148" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RawSpotPriceLoggingSubscription&gt;b__0" />
+    <Node Id="@149" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;RawSpotPriceLoggingSubscription&gt;b__2" />
+    <Node Id="@150" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="Record" />
+    <Node Id="@151" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_SpotPrice" />
+    <Node Id="@153" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="AuthorizeClient" />
+    <Node Id="@154" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="GenerateSpotPrice" />
+    <Node Id="@155" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_ClientName" />
+    <Node Id="@156" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_ClientName" />
+    <Node Id="@157" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_ClientName" />
+    <Node Id="@16" Category="CodeSchema_Enum" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="BuySell" />
+    <Node Id="@160" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="AuthorizeClient" />
+    <Node Id="@161" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="DestroyClientSession" />
+    <Node Id="@162" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="GetChannelForCallback" />
+    <Node Id="@163" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="GetPrimaryStream" />
+    <Node Id="@165" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_CurrencyPair" />
+    <Node Id="@166" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="SetupCallbackChannel" />
+    <Node Id="@167" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ValidateForSecondaryRequests" />
+    <Node Id="@168" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ExecuteTrade" />
+    <Node Id="@169" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="RequestTrade" />
+    <Node Id="@170" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="TradeExecuted" />
+    <Node Id="@171" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="TradeExecuted" />
+    <Node Id="@172" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetPriceStatisticsStream" />
+    <Node Id="@173" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetPriceStatisticsStream" />
+    <Node Id="@174" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="ForcefullyRemoveClientSession" />
+    <Node Id="@175" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="AddChannel" />
+    <Node Id="@176" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;GetPriceStatisticsObservable&gt;b__0" />
+    <Node Id="@177" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="AddStream" />
+    <Node Id="@178" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="ProcessPriceStatistics" />
+    <Node Id="@179" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" Label="SpotPrice" />
+    <Node Id="@18" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ClientSession" />
+    <Node Id="@180" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="SpotPrice" />
+    <Node Id="@181" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="Price" />
+    <Node Id="@182" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Price" />
+    <Node Id="@183" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="PriceTrade" />
+    <Node Id="@184" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="BidAskPriceStatistics" />
+    <Node Id="@187" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="&lt;&gt;c__DisplayClass2" />
+    <Node Id="@188" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="&lt;&gt;c__DisplayClass9" />
+    <Node Id="@189" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="&lt;&gt;c__DisplayClassc" />
+    <Node Id="@190" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="&lt;&gt;c__DisplayClass9" />
+    <Node Id="@191" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ClientSessions" />
+    <Node Id="@192" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ConfigService" />
+    <Node Id="@193" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="eTrader" />
+    <Node Id="@194" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="FXPricer" />
+    <Node Id="@195" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="PriceResponse" />
+    <Node Id="@196" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="PriceStatistics" />
+    <Node Id="@197" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="PriceStatisticsResponse" />
+    <Node Id="@198" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="SpotPriceGenerator" />
+    <Node Id="@199" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="SpreadedPriceResponse" />
+    <Node Id="@20" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ClientSessions" />
+    <Node Id="@200" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="TradeResponse" />
+    <Node Id="@201" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="TradingService" />
+    <Node Id="@202" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;RequestTrade&gt;b__8" />
+    <Node Id="@203" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="DestroyAllSessions" />
+    <Node Id="@204" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Dispose" />
+    <Node Id="@205" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Dispose" />
+    <Node Id="@206" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_AskPrice" />
+    <Node Id="@207" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_AuthorizedClients" />
+    <Node Id="@208" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_AverageAskPrice" />
+    <Node Id="@209" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_AverageBidPrice" />
+    <Node Id="@210" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_AveragePrice" />
+    <Node Id="@211" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_BidPrice" />
+    <Node Id="@212" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_BuySell" />
+    <Node Id="@213" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_BuySell" />
+    <Node Id="@214" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_BuySell" />
+    <Node Id="@215" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ClientCallback" />
+    <Node Id="@217" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ClientName" />
+    <Node Id="@218" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ClientName" />
+    <Node Id="@219" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ClientName" />
+    <Node Id="@220" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ClientName" />
+    <Node Id="@221" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ClientName" />
+    <Node Id="@222" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ClientName" />
+    <Node Id="@223" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_CurrencyPair" />
+    <Node Id="@224" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_CurrencyPair" />
+    <Node Id="@225" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_CurrencyPair" />
+    <Node Id="@226" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_DisposableStreams" />
+    <Node Id="@227" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MaxAskPrice" />
+    <Node Id="@228" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MaxBidPrice" />
+    <Node Id="@229" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MaxPrice" />
+    <Node Id="@23" Category="CodeSchema_Class" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="ConfigService" />
+    <Node Id="@230" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MinAskPrice" />
+    <Node Id="@231" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MinBidPrice" />
+    <Node Id="@232" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MinPrice" />
+    <Node Id="@233" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Price" />
+    <Node Id="@234" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_PriceId" />
+    <Node Id="@235" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_PriceStream" />
+    <Node Id="@236" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_PriceTimestamp" />
+    <Node Id="@237" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_PrimaryStream" />
+    <Node Id="@238" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ProductType" />
+    <Node Id="@239" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ProductType" />
+    <Node Id="@240" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ProductType" />
+    <Node Id="@241" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Quantity" />
+    <Node Id="@242" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_SalesMarkupInPips" />
+    <Node Id="@243" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_SpotPrice" />
+    <Node Id="@244" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_SpotPriceObservable" />
+    <Node Id="@245" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Statistics" />
+    <Node Id="@246" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetTradingConfig" />
+    <Node Id="@247" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="Kill" />
+    <Node Id="@248" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="PriceStatisticsSubscription" />
+    <Node Id="@249" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="PrintAskPriceStats" />
+    <Node Id="@25" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="eTrader" />
+    <Node Id="@250" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="PrintBidPriceStats" />
+    <Node Id="@251" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="RawSpotPriceLoggingSubscription" />
+    <Node Id="@252" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Start" />
+    <Node Id="@253" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="StartStreaming" />
+    <Node Id="@254" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="StartStreaming" />
+    <Node Id="@255" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="StopStreaming" />
+    <Node Id="@257" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToString" />
+    <Node Id="@258" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToString" />
+    <Node Id="@259" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToString" />
+    <Node Id="@260" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToString" />
+    <Node Id="@261" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToString" />
+    <Node Id="@262" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToString" />
+    <Node Id="@263" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToString" />
+    <Node Id="@264" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToString" />
+    <Node Id="@29" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="FXPricer" />
+    <Node Id="@31" Category="CodeSchema_Interface" CodeSchemaProperty_IsPublic="True" Group="Expanded" Label="ITradingService" />
+    <Node Id="@33" Category="CodeSchema_Interface" CodeSchemaProperty_IsPublic="True" Group="Expanded" Label="ITradingStreamCallback" />
+    <Node Id="@35" Category="CodeSchema_Class" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="MovingStatisticsComposer" />
+    <Node Id="@37" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PriceRequest" />
+    <Node Id="@39" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PriceResponse" />
+    <Node Id="@41" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PriceStatistics" />
+    <Node Id="@43" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PriceStatisticsRequest" />
+    <Node Id="@45" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PriceStatisticsResponse" />
+    <Node Id="@46" Category="CodeSchema_Enum" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ProductType" />
+    <Node Id="@48" Category="CodeSchema_Class" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="RawSpotPriceService" />
+    <Node Id="@50" Category="CodeSchema_Struct" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="SpotPrice" />
+    <Node Id="@54" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="SpotPriceGenerator" />
+    <Node Id="@56" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="SpreadedPriceResponse" />
+    <Node Id="@58" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="TradeRequest" />
+    <Node Id="@6" Category="CodeSchema_Class" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="eTrader.&lt;&gt;c__DisplayClass2" />
+    <Node Id="@60" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="TradeResponse" />
+    <Node Id="@62" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="TradingService" />
+    <Node Id="@66" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;GetPriceStatisticsObservable&gt;b__1" />
+    <Node Id="@69" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_DisposableStreams" />
+    <Node Id="@7" Category="CodeSchema_Class" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="eTrader.&lt;&gt;c__DisplayClass9" />
+    <Node Id="@70" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_PrimaryStream" />
+    <Node Id="@72" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_PriceStream" />
+    <Node Id="@73" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetPriceStatisticsObservable" />
+    <Node Id="@74" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="otherOptimizedMethods" />
+    <Node Id="@75" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_AuthorizedClients" />
+    <Node Id="@76" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_eTraderSupportedCurrencyPairs" />
+    <Node Id="@78" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="&lt;GetPriceStatisticsStream&gt;b__7" />
+    <Node Id="@79" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;PriceStatisticsSubscription&gt;b__8" />
+    <Node Id="@80" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;PriceStatisticsSubscription&gt;b__a" />
+    <Node Id="@81" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="Record" />
+    <Node Id="@82" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_BuySell" />
+    <Node Id="@84" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="RawSpotPriceService" />
+    <Node Id="@86" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_AverageAskPrice" />
+    <Node Id="@87" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_AverageBidPrice" />
+    <Node Id="@88" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_AveragePrice" />
+    <Node Id="@89" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_MaxAskPrice" />
+    <Node Id="@90" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_MaxBidPrice" />
+    <Node Id="@91" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_MaxPrice" />
+    <Node Id="@92" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_MinAskPrice" />
+    <Node Id="@93" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_MinBidPrice" />
+    <Node Id="@94" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_MinPrice" />
+    <Node Id="@95" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_TotalPrice" />
+    <Node Id="@96" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="set_TransactionPrice" />
+    <Node Id="@98" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_AskPrice" />
+    <Node Id="@99" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_BidPrice" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@142" Category="Contains" />
+    <Link Source="@10" Target="@143" Category="Contains" />
+    <Link Source="@10" Target="@145" Category="Contains" />
+    <Link Source="@10" Target="@146" Category="Contains" />
+    <Link Source="@10" Target="@189" Category="Contains" />
+    <Link Source="@112" Target="@69" Category="CodeSchema_Calls" />
+    <Link Source="@113" Target="@226" Category="CodeSchema_Calls" />
+    <Link Source="@119" Target="@154" Category="CodeSchema_Calls" />
+    <Link Source="@119" Target="@50" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@12" Target="@190" Category="Contains" />
+    <Link Source="@12" Target="@202" Category="Contains" />
+    <Link Source="@12" Target="@58" Category="References" />
+    <Link Source="@12" Target="@62" Category="References" />
+    <Link Source="@120" Target="@154" Category="CodeSchema_Calls" />
+    <Link Source="@120" Target="@50" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@123" Target="@124" Category="CodeSchema_Calls" />
+    <Link Source="@123" Target="@69" Category="CodeSchema_Calls" />
+    <Link Source="@125" Target="@140" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@125" Target="@141" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@125" Target="@187" Category="CodeSchema_Calls" />
+    <Link Source="@125" Target="@244" Category="CodeSchema_Calls" />
+    <Link Source="@125" Target="@6" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_FunctionPointer" />
+    </Link>
+    <Link Source="@126" Target="@106" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@126" Target="@107" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@126" Target="@125" Category="CodeSchema_Calls" />
+    <Link Source="@126" Target="@129" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@126" Target="@130" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@126" Target="@160" Category="CodeSchema_Calls" />
+    <Link Source="@126" Target="@166" Category="CodeSchema_Calls" />
+    <Link Source="@126" Target="@177" Category="CodeSchema_Calls" />
+    <Link Source="@126" Target="@217" Category="CodeSchema_Calls" />
+    <Link Source="@126" Target="@223" Category="CodeSchema_Calls" />
+    <Link Source="@126" Target="@238" Category="CodeSchema_Calls" />
+    <Link Source="@128" Target="@243" Category="CodeSchema_Calls" />
+    <Link Source="@128" Target="@50" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@129" Target="@132" Category="CodeSchema_Calls" />
+    <Link Source="@130" Target="@132" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@131" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@161" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@162" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@20" Category="References" />
+    <Link Source="@132" Target="@218" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@33" Category="References" />
+    <Link Source="@134" Target="@108" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@134" Target="@109" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@134" Target="@135" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@134" Target="@136" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@134" Target="@163" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@167" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@173" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@177" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@219" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@224" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@239" Category="CodeSchema_Calls" />
+    <Link Source="@135" Target="@138" Category="CodeSchema_Calls" />
+    <Link Source="@136" Target="@138" Category="CodeSchema_Calls" />
+    <Link Source="@138" Target="@137" Category="CodeSchema_Calls" />
+    <Link Source="@138" Target="@161" Category="CodeSchema_Calls" />
+    <Link Source="@138" Target="@162" Category="CodeSchema_Calls" />
+    <Link Source="@138" Target="@20" Category="References" />
+    <Link Source="@138" Target="@220" Category="CodeSchema_Calls" />
+    <Link Source="@138" Target="@33" Category="References" />
+    <Link Source="@14" Target="(@3 @8 @13 Member=get_Count)" Category="Contains" />
+    <Link Source="@14" Target="@121" Category="Contains" />
+    <Link Source="@14" Target="@184" Category="Contains" />
+    <Link Source="@14" Target="@208" Category="Contains" />
+    <Link Source="@14" Target="@209" Category="Contains" />
+    <Link Source="@14" Target="@227" Category="Contains" />
+    <Link Source="@14" Target="@228" Category="Contains" />
+    <Link Source="@14" Target="@230" Category="Contains" />
+    <Link Source="@14" Target="@231" Category="Contains" />
+    <Link Source="@14" Target="@249" Category="Contains" />
+    <Link Source="@14" Target="@250" Category="Contains" />
+    <Link Source="@14" Target="@257" Category="Contains" />
+    <Link Source="@14" Target="@86" Category="Contains" />
+    <Link Source="@14" Target="@87" Category="Contains" />
+    <Link Source="@14" Target="@89" Category="Contains" />
+    <Link Source="@14" Target="@90" Category="Contains" />
+    <Link Source="@14" Target="@92" Category="Contains" />
+    <Link Source="@14" Target="@93" Category="Contains" />
+    <Link Source="@140" Target="@223" Category="CodeSchema_Calls" />
+    <Link Source="@140" Target="@225" Category="CodeSchema_Calls" />
+    <Link Source="@141" Target="@181" Category="CodeSchema_Calls" />
+    <Link Source="@141" Target="@242" Category="CodeSchema_Calls" />
+    <Link Source="@141" Target="@25" Category="References" />
+    <Link Source="@141" Target="@39" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@142" Target="@211" Category="CodeSchema_Calls" />
+    <Link Source="@143" Target="@211" Category="CodeSchema_Calls" />
+    <Link Source="@145" Target="@211" Category="CodeSchema_Calls" />
+    <Link Source="@146" Target="@211" Category="CodeSchema_Calls" />
+    <Link Source="@148" Target="@150" Category="CodeSchema_Calls" />
+    <Link Source="@149" Target="@150" Category="CodeSchema_Calls" />
+    <Link Source="@153" Target="@207" Category="CodeSchema_Calls" />
+    <Link Source="@154" Target="@179" Category="CodeSchema_Calls" />
+    <Link Source="@154" Target="@50" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@16" Target="@16" Category="References" />
+    <Link Source="@161" Target="@18" Category="References" />
+    <Link Source="@161" Target="@203" Category="CodeSchema_Calls" />
+    <Link Source="@161" Target="@247" Category="CodeSchema_Calls" />
+    <Link Source="@162" Target="@18" Category="References" />
+    <Link Source="@162" Target="@203" Category="CodeSchema_Calls" />
+    <Link Source="@162" Target="@215" Category="CodeSchema_Calls" />
+    <Link Source="@162" Target="@33" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@163" Target="@18" Category="References" />
+    <Link Source="@163" Target="@237" Category="CodeSchema_Calls" />
+    <Link Source="@166" Target="@175" Category="CodeSchema_Calls" />
+    <Link Source="@166" Target="@33" Category="References" />
+    <Link Source="@168" Target="@110" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@115" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@122" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@157" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@183" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@200" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@213" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@221" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@233" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@234" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@236" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@240" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@241" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@50" Category="References" />
+    <Link Source="@168" Target="@60" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@168" Target="@82" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@95" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@96" Category="CodeSchema_Calls" />
+    <Link Source="@169" Target="@12" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_FunctionPointer" />
+    </Link>
+    <Link Source="@169" Target="@167" Category="CodeSchema_Calls" />
+    <Link Source="@169" Target="@190" Category="CodeSchema_Calls" />
+    <Link Source="@169" Target="@202" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@169" Target="@221" Category="CodeSchema_Calls" />
+    <Link Source="@171" Target="@161" Category="CodeSchema_Calls" />
+    <Link Source="@171" Target="@162" Category="CodeSchema_Calls" />
+    <Link Source="@171" Target="@170" Category="CodeSchema_Calls" />
+    <Link Source="@171" Target="@20" Category="References" />
+    <Link Source="@171" Target="@222" Category="CodeSchema_Calls" />
+    <Link Source="@171" Target="@33" Category="References" />
+    <Link Source="@172" Target="@128" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@172" Target="@188" Category="CodeSchema_Calls" />
+    <Link Source="@172" Target="@7" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_FunctionPointer" />
+    </Link>
+    <Link Source="@172" Target="@73" Category="CodeSchema_Calls" />
+    <Link Source="@172" Target="@78" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@174" Target="@203" Category="CodeSchema_Calls" />
+    <Link Source="@174" Target="@247" Category="CodeSchema_Calls" />
+    <Link Source="@175" Target="@123" Category="CodeSchema_Calls" />
+    <Link Source="@175" Target="@174" Category="CodeSchema_Calls" />
+    <Link Source="@175" Target="@18" Category="References" />
+    <Link Source="@176" Target="@206" Category="CodeSchema_Calls" />
+    <Link Source="@176" Target="@211" Category="CodeSchema_Calls" />
+    <Link Source="@177" Target="@113" Category="CodeSchema_Calls" />
+    <Link Source="@177" Target="@167" Category="CodeSchema_Calls" />
+    <Link Source="@177" Target="@18" Category="References" />
+    <Link Source="@177" Target="@70" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@133" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@156" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@196" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@197" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@208" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@209" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@227" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@228" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@230" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@231" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@41" Category="References" />
+    <Link Source="@178" Target="@45" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@178" Target="@88" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@91" Category="CodeSchema_Calls" />
+    <Link Source="@178" Target="@94" Category="CodeSchema_Calls" />
+    <Link Source="@18" Target="@112" Category="Contains" />
+    <Link Source="@18" Target="@113" Category="Contains" />
+    <Link Source="@18" Target="@123" Category="Contains" />
+    <Link Source="@18" Target="@124" Category="Contains" />
+    <Link Source="@18" Target="@215" Category="Contains" />
+    <Link Source="@18" Target="@226" Category="Contains" />
+    <Link Source="@18" Target="@237" Category="Contains" />
+    <Link Source="@18" Target="@247" Category="Contains" />
+    <Link Source="@18" Target="@33" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@18" Target="@69" Category="Contains" />
+    <Link Source="@18" Target="@70" Category="Contains" />
+    <Link Source="@180" Target="@111" Category="CodeSchema_Calls" />
+    <Link Source="@180" Target="@165" Category="CodeSchema_Calls" />
+    <Link Source="@180" Target="@98" Category="CodeSchema_Calls" />
+    <Link Source="@180" Target="@99" Category="CodeSchema_Calls" />
+    <Link Source="@181" Target="@117" Category="CodeSchema_Calls" />
+    <Link Source="@181" Target="@151" Category="CodeSchema_Calls" />
+    <Link Source="@181" Target="@155" Category="CodeSchema_Calls" />
+    <Link Source="@181" Target="@182" Category="CodeSchema_Calls" />
+    <Link Source="@181" Target="@199" Category="CodeSchema_Calls" />
+    <Link Source="@181" Target="@217" Category="CodeSchema_Calls" />
+    <Link Source="@181" Target="@223" Category="CodeSchema_Calls" />
+    <Link Source="@181" Target="@39" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@181" Target="@50" Category="References" />
+    <Link Source="@181" Target="@56" Category="References" />
+    <Link Source="@182" Target="@179" Category="CodeSchema_Calls" />
+    <Link Source="@182" Target="@206" Category="CodeSchema_Calls" />
+    <Link Source="@182" Target="@211" Category="CodeSchema_Calls" />
+    <Link Source="@182" Target="@50" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@183" Target="@206" Category="CodeSchema_Calls" />
+    <Link Source="@183" Target="@211" Category="CodeSchema_Calls" />
+    <Link Source="@184" Target="@121" Category="CodeSchema_Calls" />
+    <Link Source="@184" Target="@86" Category="CodeSchema_Calls" />
+    <Link Source="@184" Target="@87" Category="CodeSchema_Calls" />
+    <Link Source="@184" Target="@89" Category="CodeSchema_Calls" />
+    <Link Source="@184" Target="@90" Category="CodeSchema_Calls" />
+    <Link Source="@184" Target="@92" Category="CodeSchema_Calls" />
+    <Link Source="@184" Target="@93" Category="CodeSchema_Calls" />
+    <Link Source="@193" Target="@194" Category="CodeSchema_Calls" />
+    <Link Source="@193" Target="@246" Category="CodeSchema_Calls" />
+    <Link Source="@193" Target="@84" Category="CodeSchema_Calls" />
+    <Link Source="@199" Target="@195" Category="CodeSchema_Calls" />
+    <Link Source="@20" Target="(@2 @11 @19 @185)" Category="Contains" />
+    <Link Source="@20" Target="@161" Category="Contains" />
+    <Link Source="@20" Target="@162" Category="Contains" />
+    <Link Source="@20" Target="@163" Category="Contains" />
+    <Link Source="@20" Target="@167" Category="Contains" />
+    <Link Source="@20" Target="@174" Category="Contains" />
+    <Link Source="@20" Target="@175" Category="Contains" />
+    <Link Source="@20" Target="@177" Category="Contains" />
+    <Link Source="@20" Target="@191" Category="Contains" />
+    <Link Source="@20" Target="@203" Category="Contains" />
+    <Link Source="@201" Target="@191" Category="CodeSchema_Calls" />
+    <Link Source="@201" Target="@193" Category="CodeSchema_Calls" />
+    <Link Source="@201" Target="@252" Category="CodeSchema_Calls" />
+    <Link Source="@202" Target="@168" Category="CodeSchema_Calls" />
+    <Link Source="@202" Target="@171" Category="CodeSchema_Calls" />
+    <Link Source="@202" Target="@60" Category="References" />
+    <Link Source="@202" Target="@62" Category="References" />
+    <Link Source="@203" Target="@18" Category="References" />
+    <Link Source="@203" Target="@247" Category="CodeSchema_Calls" />
+    <Link Source="@204" Target="@205" Category="CodeSchema_Calls" />
+    <Link Source="@205" Target="@255" Category="CodeSchema_Calls" />
+    <Link Source="@212" Target="@16" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@213" Target="@16" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@214" Target="@16" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@215" Target="@33" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@23" Target="(@3 @21 @22 Member=get_eTraderSupportedCurrencyPairs)" Category="Contains" />
+    <Link Source="@23" Target="@116" Category="Contains" />
+    <Link Source="@23" Target="@192" Category="Contains" />
+    <Link Source="@23" Target="@207" Category="Contains" />
+    <Link Source="@23" Target="@242" Category="Contains" />
+    <Link Source="@23" Target="@246" Category="Contains" />
+    <Link Source="@23" Target="@75" Category="Contains" />
+    <Link Source="@23" Target="@76" Category="Contains" />
+    <Link Source="@233" Target="@50" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@238" Target="@46" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@239" Target="@46" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@240" Target="@46" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@243" Target="@50" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@244" Target="@235" Category="CodeSchema_Calls" />
+    <Link Source="@245" Target="@41" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@246" Target="@116" Category="CodeSchema_Calls" />
+    <Link Source="@246" Target="@192" Category="CodeSchema_Calls" />
+    <Link Source="@246" Target="@23" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@246" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@246" Target="@76" Category="CodeSchema_Calls" />
+    <Link Source="@247" Target="@226" Category="CodeSchema_Calls" />
+    <Link Source="@248" Target="@101" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@248" Target="@102" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@248" Target="@244" Category="CodeSchema_Calls" />
+    <Link Source="@248" Target="@73" Category="CodeSchema_Calls" />
+    <Link Source="@248" Target="@79" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@248" Target="@80" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@249" Target="@208" Category="CodeSchema_Calls" />
+    <Link Source="@249" Target="@227" Category="CodeSchema_Calls" />
+    <Link Source="@249" Target="@230" Category="CodeSchema_Calls" />
+    <Link Source="@25" Target="(@3 @4 @24 @185)" Category="Contains" />
+    <Link Source="@25" Target="@125" Category="Contains" />
+    <Link Source="@25" Target="@128" Category="Contains" />
+    <Link Source="@25" Target="@153" Category="Contains" />
+    <Link Source="@25" Target="@160" Category="Contains" />
+    <Link Source="@25" Target="@168" Category="Contains" />
+    <Link Source="@25" Target="@172" Category="Contains" />
+    <Link Source="@25" Target="@173" Category="Contains" />
+    <Link Source="@25" Target="@178" Category="Contains" />
+    <Link Source="@25" Target="@181" Category="Contains" />
+    <Link Source="@25" Target="@193" Category="Contains" />
+    <Link Source="@25" Target="@204" Category="Contains" />
+    <Link Source="@25" Target="@23" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@25" Target="@252" Category="Contains" />
+    <Link Source="@25" Target="@29" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@25" Target="@48" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@25" Target="@6" Category="Contains" />
+    <Link Source="@25" Target="@7" Category="Contains" />
+    <Link Source="@250" Target="@209" Category="CodeSchema_Calls" />
+    <Link Source="@250" Target="@228" Category="CodeSchema_Calls" />
+    <Link Source="@250" Target="@231" Category="CodeSchema_Calls" />
+    <Link Source="@251" Target="@103" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@251" Target="@104" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@251" Target="@148" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@251" Target="@149" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@251" Target="@244" Category="CodeSchema_Calls" />
+    <Link Source="@252" Target="@253" Category="CodeSchema_Calls" />
+    <Link Source="@253" Target="@248" Category="CodeSchema_Calls" />
+    <Link Source="@253" Target="@251" Category="CodeSchema_Calls" />
+    <Link Source="@253" Target="@254" Category="CodeSchema_Calls" />
+    <Link Source="@254" Target="@119" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@254" Target="@120" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@254" Target="@235" Category="CodeSchema_Calls" />
+    <Link Source="@254" Target="@72" Category="CodeSchema_Calls" />
+    <Link Source="@257" Target="@249" Category="CodeSchema_Calls" />
+    <Link Source="@257" Target="@250" Category="CodeSchema_Calls" />
+    <Link Source="@258" Target="@217" Category="CodeSchema_Calls" />
+    <Link Source="@258" Target="@223" Category="CodeSchema_Calls" />
+    <Link Source="@258" Target="@238" Category="CodeSchema_Calls" />
+    <Link Source="@259" Target="@218" Category="CodeSchema_Calls" />
+    <Link Source="@259" Target="@243" Category="CodeSchema_Calls" />
+    <Link Source="@260" Target="@210" Category="CodeSchema_Calls" />
+    <Link Source="@260" Target="@229" Category="CodeSchema_Calls" />
+    <Link Source="@260" Target="@232" Category="CodeSchema_Calls" />
+    <Link Source="@261" Target="@212" Category="CodeSchema_Calls" />
+    <Link Source="@261" Target="@219" Category="CodeSchema_Calls" />
+    <Link Source="@261" Target="@224" Category="CodeSchema_Calls" />
+    <Link Source="@261" Target="@239" Category="CodeSchema_Calls" />
+    <Link Source="@262" Target="@220" Category="CodeSchema_Calls" />
+    <Link Source="@262" Target="@245" Category="CodeSchema_Calls" />
+    <Link Source="@263" Target="@206" Category="CodeSchema_Calls" />
+    <Link Source="@263" Target="@211" Category="CodeSchema_Calls" />
+    <Link Source="@263" Target="@225" Category="CodeSchema_Calls" />
+    <Link Source="@263" Target="@234" Category="CodeSchema_Calls" />
+    <Link Source="@264" Target="@213" Category="CodeSchema_Calls" />
+    <Link Source="@264" Target="@233" Category="CodeSchema_Calls" />
+    <Link Source="@264" Target="@240" Category="CodeSchema_Calls" />
+    <Link Source="@264" Target="@241" Category="CodeSchema_Calls" />
+    <Link Source="@29" Target="@182" Category="Contains" />
+    <Link Source="@29" Target="@183" Category="Contains" />
+    <Link Source="@29" Target="@194" Category="Contains" />
+    <Link Source="@31" Target="(@2 @11 @30 Member=(Name=RequestPrice OverloadingParameters=[@37]))" Category="Contains" />
+    <Link Source="@31" Target="(@2 @11 @30 Member=(Name=RequestPriceStatistics OverloadingParameters=[@43]))" Category="Contains" />
+    <Link Source="@31" Target="(@2 @11 @30 Member=(Name=RequestTrade OverloadingParameters=[@58]))" Category="Contains" />
+    <Link Source="@33" Target="@131" Category="Contains" />
+    <Link Source="@33" Target="@137" Category="Contains" />
+    <Link Source="@33" Target="@170" Category="Contains" />
+    <Link Source="@35" Target="(@3 @8 @34 @186)" Category="Contains" />
+    <Link Source="@35" Target="(@3 @8 @34 Member=(Name=whatsWrongwithThis OverloadingParameters=[(@63 @64 Type=(Name=IObservable @68 GenericArguments=[@50]))]))" Category="Contains" />
+    <Link Source="@35" Target="@10" Category="Contains" />
+    <Link Source="@35" Target="@144" Category="Contains" />
+    <Link Source="@35" Target="@147" Category="Contains" />
+    <Link Source="@35" Target="@176" Category="Contains" />
+    <Link Source="@35" Target="@66" Category="Contains" />
+    <Link Source="@35" Target="@73" Category="Contains" />
+    <Link Source="@35" Target="@74" Category="Contains" />
+    <Link Source="@37" Target="(@1 @15 @36 @164)" Category="Contains" />
+    <Link Source="@37" Target="(@1 @15 @36 @186)" Category="Contains" />
+    <Link Source="@37" Target="(@1 @15 @36 Member=(Name=set_CurrencyPair @159))" Category="Contains" />
+    <Link Source="@37" Target="(@1 @15 @36 Member=(Name=set_ProductType OverloadingParameters=[@46]))" Category="Contains" />
+    <Link Source="@37" Target="@217" Category="Contains" />
+    <Link Source="@37" Target="@223" Category="Contains" />
+    <Link Source="@37" Target="@238" Category="Contains" />
+    <Link Source="@37" Target="@258" Category="Contains" />
+    <Link Source="@37" Target="@46" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@39" Target="(@1 @15 @38 @164)" Category="Contains" />
+    <Link Source="@39" Target="@151" Category="Contains" />
+    <Link Source="@39" Target="@155" Category="Contains" />
+    <Link Source="@39" Target="@195" Category="Contains" />
+    <Link Source="@39" Target="@218" Category="Contains" />
+    <Link Source="@39" Target="@243" Category="Contains" />
+    <Link Source="@39" Target="@259" Category="Contains" />
+    <Link Source="@39" Target="@50" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@41" Target="(@1 @15 @40 Member=(Name=set_AveragePrice @97))" Category="Contains" />
+    <Link Source="@41" Target="(@1 @15 @40 Member=(Name=set_MaxPrice @97))" Category="Contains" />
+    <Link Source="@41" Target="(@1 @15 @40 Member=(Name=set_MinPrice @97))" Category="Contains" />
+    <Link Source="@41" Target="@196" Category="Contains" />
+    <Link Source="@41" Target="@210" Category="Contains" />
+    <Link Source="@41" Target="@229" Category="Contains" />
+    <Link Source="@41" Target="@232" Category="Contains" />
+    <Link Source="@41" Target="@260" Category="Contains" />
+    <Link Source="@41" Target="@88" Category="Contains" />
+    <Link Source="@41" Target="@91" Category="Contains" />
+    <Link Source="@41" Target="@94" Category="Contains" />
+    <Link Source="@43" Target="(@1 @15 @42 @164)" Category="Contains" />
+    <Link Source="@43" Target="(@1 @15 @42 @186)" Category="Contains" />
+    <Link Source="@43" Target="(@1 @15 @42 Member=(Name=set_BuySell OverloadingParameters=[@16]))" Category="Contains" />
+    <Link Source="@43" Target="(@1 @15 @42 Member=(Name=set_CurrencyPair @159))" Category="Contains" />
+    <Link Source="@43" Target="(@1 @15 @42 Member=(Name=set_ProductType OverloadingParameters=[@46]))" Category="Contains" />
+    <Link Source="@43" Target="@16" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@43" Target="@212" Category="Contains" />
+    <Link Source="@43" Target="@219" Category="Contains" />
+    <Link Source="@43" Target="@224" Category="Contains" />
+    <Link Source="@43" Target="@239" Category="Contains" />
+    <Link Source="@43" Target="@261" Category="Contains" />
+    <Link Source="@43" Target="@46" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@45" Target="(@1 @15 @44 @164)" Category="Contains" />
+    <Link Source="@45" Target="@133" Category="Contains" />
+    <Link Source="@45" Target="@156" Category="Contains" />
+    <Link Source="@45" Target="@197" Category="Contains" />
+    <Link Source="@45" Target="@220" Category="Contains" />
+    <Link Source="@45" Target="@245" Category="Contains" />
+    <Link Source="@45" Target="@262" Category="Contains" />
+    <Link Source="@45" Target="@41" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@46" Target="@46" Category="References" />
+    <Link Source="@48" Target="(@3 @4 @47 @185)" Category="Contains" />
+    <Link Source="@48" Target="@101" Category="Contains" />
+    <Link Source="@48" Target="@102" Category="Contains" />
+    <Link Source="@48" Target="@103" Category="Contains" />
+    <Link Source="@48" Target="@104" Category="Contains" />
+    <Link Source="@48" Target="@148" Category="Contains" />
+    <Link Source="@48" Target="@149" Category="Contains" />
+    <Link Source="@48" Target="@150" Category="Contains" />
+    <Link Source="@48" Target="@205" Category="Contains" />
+    <Link Source="@48" Target="@23" Category="References" />
+    <Link Source="@48" Target="@244" Category="Contains" />
+    <Link Source="@48" Target="@248" Category="Contains" />
+    <Link Source="@48" Target="@251" Category="Contains" />
+    <Link Source="@48" Target="@253" Category="Contains" />
+    <Link Source="@48" Target="@54" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@48" Target="@79" Category="Contains" />
+    <Link Source="@48" Target="@80" Category="Contains" />
+    <Link Source="@48" Target="@81" Category="Contains" />
+    <Link Source="@48" Target="@84" Category="Contains" />
+    <Link Source="@50" Target="@111" Category="Contains" />
+    <Link Source="@50" Target="@165" Category="Contains" />
+    <Link Source="@50" Target="@179" Category="Contains" />
+    <Link Source="@50" Target="@180" Category="Contains" />
+    <Link Source="@50" Target="@206" Category="Contains" />
+    <Link Source="@50" Target="@211" Category="Contains" />
+    <Link Source="@50" Target="@225" Category="Contains" />
+    <Link Source="@50" Target="@234" Category="Contains" />
+    <Link Source="@50" Target="@263" Category="Contains" />
+    <Link Source="@50" Target="@98" Category="Contains" />
+    <Link Source="@50" Target="@99" Category="Contains" />
+    <Link Source="@54" Target="@119" Category="Contains" />
+    <Link Source="@54" Target="@120" Category="Contains" />
+    <Link Source="@54" Target="@154" Category="Contains" />
+    <Link Source="@54" Target="@198" Category="Contains" />
+    <Link Source="@54" Target="@235" Category="Contains" />
+    <Link Source="@54" Target="@254" Category="Contains" />
+    <Link Source="@54" Target="@255" Category="Contains" />
+    <Link Source="@54" Target="@72" Category="Contains" />
+    <Link Source="@56" Target="(@1 @15 @55 Member=(Name=set_SpreadInPips OverloadingParameters=[(@67 @64 Type=Int32)]))" Category="Contains" />
+    <Link Source="@56" Target="(@1 @15 @55 Member=get_SpreadInPips)" Category="Contains" />
+    <Link Source="@56" Target="@117" Category="Contains" />
+    <Link Source="@56" Target="@199" Category="Contains" />
+    <Link Source="@56" Target="@39" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@58" Target="(@1 @15 @57 @164)" Category="Contains" />
+    <Link Source="@58" Target="(@1 @15 @57 @186)" Category="Contains" />
+    <Link Source="@58" Target="(@1 @15 @57 Member=(Name=set_BuySell OverloadingParameters=[@16]))" Category="Contains" />
+    <Link Source="@58" Target="(@1 @15 @57 Member=(Name=set_Price @139))" Category="Contains" />
+    <Link Source="@58" Target="(@1 @15 @57 Member=(Name=set_PriceTimestamp OverloadingParameters=[(@67 @64 Type=Int64)]))" Category="Contains" />
+    <Link Source="@58" Target="(@1 @15 @57 Member=(Name=set_ProductType OverloadingParameters=[@46]))" Category="Contains" />
+    <Link Source="@58" Target="(@1 @15 @57 Member=(Name=set_Quantity OverloadingParameters=[(@67 @64 Type=Int32)]))" Category="Contains" />
+    <Link Source="@58" Target="@16" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@58" Target="@213" Category="Contains" />
+    <Link Source="@58" Target="@221" Category="Contains" />
+    <Link Source="@58" Target="@233" Category="Contains" />
+    <Link Source="@58" Target="@236" Category="Contains" />
+    <Link Source="@58" Target="@240" Category="Contains" />
+    <Link Source="@58" Target="@241" Category="Contains" />
+    <Link Source="@58" Target="@264" Category="Contains" />
+    <Link Source="@58" Target="@46" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@58" Target="@50" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@6" Target="@140" Category="Contains" />
+    <Link Source="@6" Target="@141" Category="Contains" />
+    <Link Source="@6" Target="@187" Category="Contains" />
+    <Link Source="@6" Target="@25" Category="References" />
+    <Link Source="@6" Target="@37" Category="References" />
+    <Link Source="@60" Target="(@1 @15 @59 @164)" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=(Name=set_PriceTimestamp OverloadingParameters=[(@67 @64 Type=Int64)]))" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=(Name=set_Quantity OverloadingParameters=[(@67 @64 Type=Int32)]))" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=(Name=set_TotalPrice @97))" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=(Name=set_TransactionPrice @97))" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=(Name=set_TransactionPriceId OverloadingParameters=[(@67 @64 Type=Guid)]))" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=get_PriceTimestamp)" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=get_Quantity)" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=get_TotalPrice)" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=get_TransactionPrice)" Category="Contains" />
+    <Link Source="@60" Target="(@1 @15 @59 Member=get_TransactionPriceId)" Category="Contains" />
+    <Link Source="@60" Target="@110" Category="Contains" />
+    <Link Source="@60" Target="@115" Category="Contains" />
+    <Link Source="@60" Target="@122" Category="Contains" />
+    <Link Source="@60" Target="@157" Category="Contains" />
+    <Link Source="@60" Target="@16" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@60" Target="@200" Category="Contains" />
+    <Link Source="@60" Target="@214" Category="Contains" />
+    <Link Source="@60" Target="@222" Category="Contains" />
+    <Link Source="@60" Target="@82" Category="Contains" />
+    <Link Source="@60" Target="@95" Category="Contains" />
+    <Link Source="@60" Target="@96" Category="Contains" />
+    <Link Source="@62" Target="(@2 @11 @61 @185)" Category="Contains" />
+    <Link Source="@62" Target="@106" Category="Contains" />
+    <Link Source="@62" Target="@107" Category="Contains" />
+    <Link Source="@62" Target="@108" Category="Contains" />
+    <Link Source="@62" Target="@109" Category="Contains" />
+    <Link Source="@62" Target="@12" Category="Contains" />
+    <Link Source="@62" Target="@126" Category="Contains" />
+    <Link Source="@62" Target="@129" Category="Contains" />
+    <Link Source="@62" Target="@130" Category="Contains" />
+    <Link Source="@62" Target="@132" Category="Contains" />
+    <Link Source="@62" Target="@134" Category="Contains" />
+    <Link Source="@62" Target="@135" Category="Contains" />
+    <Link Source="@62" Target="@136" Category="Contains" />
+    <Link Source="@62" Target="@138" Category="Contains" />
+    <Link Source="@62" Target="@166" Category="Contains" />
+    <Link Source="@62" Target="@169" Category="Contains" />
+    <Link Source="@62" Target="@171" Category="Contains" />
+    <Link Source="@62" Target="@20" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@62" Target="@201" Category="Contains" />
+    <Link Source="@62" Target="@25" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@62" Target="@31" Category="Implements" />
+    <Link Source="@66" Target="@14" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@66" Target="@184" Category="CodeSchema_Calls" />
+    <Link Source="@7" Target="@188" Category="Contains" />
+    <Link Source="@7" Target="@25" Category="References" />
+    <Link Source="@7" Target="@43" Category="References" />
+    <Link Source="@7" Target="@78" Category="Contains" />
+    <Link Source="@73" Target="@176" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@73" Target="@66" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@74" Target="@10" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_FunctionPointer" />
+    </Link>
+    <Link Source="@74" Target="@142" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@74" Target="@143" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@74" Target="@144" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@74" Target="@145" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@74" Target="@146" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@74" Target="@147" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@74" Target="@189" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@178" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@212" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@219" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@45" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@79" Target="@81" Category="CodeSchema_Calls" />
+    <Link Source="@80" Target="@81" Category="CodeSchema_Calls" />
+    <Link Source="@84" Target="@198" Category="CodeSchema_Calls" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" IsProviderRoot="False" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_Block" Label="Block" BasedOn="CodeSchema_Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Blocks" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Enum" Label="Enum" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" IsProviderRoot="False" NavigationActionLabel="Enums" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" IsProviderRoot="False" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" IsProviderRoot="False" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" IsProviderRoot="False" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="CodeSchema_Statement" Label="Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Statement" />
+    <Category Id="CodeSchema_Struct" Label="Struct" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Struct" IsProviderRoot="False" NavigationActionLabel="Structs" />
+    <Category Id="CodeSchema_Type" Label="Type" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" IsProviderRoot="False" NavigationActionLabel="Files" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsCompilerGenerated" Label="IsCompilerGenerated" Description="IsCompilerGenerated" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="IsConstructor" Description="IsConstructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="IsInternal" Description="IsInternal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="IsPrivate" Description="IsPrivate" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="IsPublic" Description="IsPublic" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsSpecialName" Label="IsSpecialName" Description="IsSpecialName" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="Array Rank" ValueType="System.String" />
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="GenericArguments" Label="Generic Arguments" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" />
+    <Name Id="GenericParameterCount" Label="Generic Parameter Count" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParentType" Label="Parent Type" ValueType="System.Object" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Type" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Generics" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Generics')" />
+      <Setter Property="Background" Value="#FFA080A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+  </Styles>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(f4419421-150e-4320-a838-46fa1f608b33.OutputPathUri)" />
+    <Alias n="2" Uri="Assembly=$(046c5558-edc4-4854-9a2e-0a87b0efeef4.OutputPathUri)" />
+    <Alias n="3" Uri="Assembly=$(9d0be2f6-866c-4565-9a77-ed36bcf52588.OutputPathUri)" />
+    <Alias n="4" Id="Namespace=FXTrader.ETrader" />
+    <Alias n="5" Id="Type=(Name=&lt;&gt;c__DisplayClass2 ParentType=eTrader)" />
+    <Alias n="6" Id="(@3 @4 @5)" />
+    <Alias n="7" Id="(@3 @4 Type=(Name=&lt;&gt;c__DisplayClass9 ParentType=eTrader))" />
+    <Alias n="8" Id="Namespace=FXTrader.ETrader.Statistics" />
+    <Alias n="9" Id="Type=(Name=&lt;&gt;c__DisplayClassc ParentType=MovingStatisticsComposer)" />
+    <Alias n="10" Id="(@3 @8 @9)" />
+    <Alias n="11" Id="Namespace=FXTrader.ExternalAdapter" />
+    <Alias n="12" Id="(@2 @11 Type=(Name=&lt;&gt;c__DisplayClass9 ParentType=TradingService))" />
+    <Alias n="13" Id="Type=BidAskPriceStatistics" />
+    <Alias n="14" Id="(@3 @8 @13)" />
+    <Alias n="15" Id="Namespace=FXTrader.Common" />
+    <Alias n="16" Id="(@1 @15 Type=BuySell)" />
+    <Alias n="17" Id="Type=ClientSession" />
+    <Alias n="18" Id="(@2 @11 @17)" />
+    <Alias n="19" Id="Type=ClientSessions" />
+    <Alias n="20" Id="(@2 @11 @19)" />
+    <Alias n="21" Id="Namespace=FXTrader.ETrader.Config" />
+    <Alias n="22" Id="Type=ConfigService" />
+    <Alias n="23" Id="(@3 @21 @22)" />
+    <Alias n="24" Id="Type=eTrader" />
+    <Alias n="25" Id="(@3 @4 @24)" />
+    <Alias n="26" Uri="Assembly=$(6c8d9984-64c0-4ae4-b0bf-89ad2263df9b.OutputPathUri)" />
+    <Alias n="27" Id="Namespace=FXTrader.FXPricer" />
+    <Alias n="28" Id="Type=FXPricer" />
+    <Alias n="29" Id="(@26 @27 @28)" />
+    <Alias n="30" Id="Type=ITradingService" />
+    <Alias n="31" Id="(@2 @11 @30)" />
+    <Alias n="32" Id="Type=ITradingStreamCallback" />
+    <Alias n="33" Id="(@2 @11 @32)" />
+    <Alias n="34" Id="Type=MovingStatisticsComposer" />
+    <Alias n="35" Id="(@3 @8 @34)" />
+    <Alias n="36" Id="Type=PriceRequest" />
+    <Alias n="37" Id="(@1 @15 @36)" />
+    <Alias n="38" Id="Type=PriceResponse" />
+    <Alias n="39" Id="(@1 @15 @38)" />
+    <Alias n="40" Id="Type=PriceStatistics" />
+    <Alias n="41" Id="(@1 @15 @40)" />
+    <Alias n="42" Id="Type=PriceStatisticsRequest" />
+    <Alias n="43" Id="(@1 @15 @42)" />
+    <Alias n="44" Id="Type=PriceStatisticsResponse" />
+    <Alias n="45" Id="(@1 @15 @44)" />
+    <Alias n="46" Id="(@1 @15 Type=ProductType)" />
+    <Alias n="47" Id="Type=RawSpotPriceService" />
+    <Alias n="48" Id="(@3 @4 @47)" />
+    <Alias n="49" Id="Type=SpotPrice" />
+    <Alias n="50" Id="(@1 @15 @49)" />
+    <Alias n="51" Uri="Assembly=$(ec5ef413-1a14-4ad9-9ee2-9281f86196e5.OutputPathUri)" />
+    <Alias n="52" Id="Namespace=ExternalSimulator.PriceGenerator" />
+    <Alias n="53" Id="Type=SpotPriceGenerator" />
+    <Alias n="54" Id="(@51 @52 @53)" />
+    <Alias n="55" Id="Type=SpreadedPriceResponse" />
+    <Alias n="56" Id="(@1 @15 @55)" />
+    <Alias n="57" Id="Type=TradeRequest" />
+    <Alias n="58" Id="(@1 @15 @57)" />
+    <Alias n="59" Id="Type=TradeResponse" />
+    <Alias n="60" Id="(@1 @15 @59)" />
+    <Alias n="61" Id="Type=TradingService" />
+    <Alias n="62" Id="(@2 @11 @61)" />
+    <Alias n="63" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll" />
+    <Alias n="64" Id="Namespace=System" />
+    <Alias n="65" Id="(@63 @64 Type=Decimal)" />
+    <Alias n="66" Id="(@3 @8 @34 Member=(Name=&lt;GetPriceStatisticsObservable&gt;b__1 OverloadingParameters=[(@3 Type=(Name=&lt;&gt;f__AnonymousType0 GenericParameterCount=7 GenericArguments=[@65,@65,@65,@65,@65,@65,(@63 @64 Type=Int64)]))]))" />
+    <Alias n="67" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/mscorlib.dll" />
+    <Alias n="68" Id="GenericParameterCount=1" />
+    <Alias n="69" Id="(@2 @11 @17 Member=(Name=set_DisposableStreams OverloadingParameters=[(@67 Namespace=System.Collections.Generic Type=(Name=List @68 GenericArguments=[(@67 @64 Type=IDisposable)]))]))" />
+    <Alias n="70" Id="(@2 @11 @17 Member=(Name=set_PrimaryStream OverloadingParameters=[(@67 @64 Type=(Name=IObservable @68 GenericArguments=[@39]))]))" />
+    <Alias n="71" Uri="Assembly=$(VsSolutionUri)/packages/Rx-Interfaces.2.2.2/lib/net40/System.Reactive.Interfaces.dll" />
+    <Alias n="72" Id="(@51 @52 @53 Member=(Name=set_PriceStream OverloadingParameters=[(@71 Namespace=System.Reactive.Subjects Type=(Name=IConnectableObservable @68 GenericArguments=[@50]))]))" />
+    <Alias n="73" Id="(@3 @8 @34 Member=(Name=GetPriceStatisticsObservable OverloadingParameters=[(@63 @64 Type=(Name=IObservable @68 GenericArguments=[@50]))]))" />
+    <Alias n="74" Id="(@3 @8 @34 Member=(Name=otherOptimizedMethods OverloadingParameters=[(@63 @64 Type=(Name=IObservable @68 GenericArguments=[@50]))]))" />
+    <Alias n="75" Id="(@3 @21 @22 Member=(Name=set_AuthorizedClients OverloadingParameters=[(@63 @64 Type=(Name=String ArrayRank=1 ParentType=String))]))" />
+    <Alias n="76" Id="(@3 @21 @22 Member=(Name=set_eTraderSupportedCurrencyPairs OverloadingParameters=[(@63 @64 Type=(Name=String ArrayRank=1 ParentType=String))]))" />
+    <Alias n="77" Id="OverloadingParameters=[@14]" />
+    <Alias n="78" Id="(@3 @4 Type=(Name=&lt;&gt;c__DisplayClass9 ParentType=eTrader) Member=(Name=&lt;GetPriceStatisticsStream&gt;b__7 @77))" />
+    <Alias n="79" Id="(@3 @4 @47 Member=(Name=&lt;PriceStatisticsSubscription&gt;b__8 @77))" />
+    <Alias n="80" Id="(@3 @4 @47 Member=(Name=&lt;PriceStatisticsSubscription&gt;b__a @77))" />
+    <Alias n="81" Id="(@3 @4 @47 Member=(Name=Record @77))" />
+    <Alias n="82" Id="(@1 @15 @59 Member=(Name=set_BuySell OverloadingParameters=[@16]))" />
+    <Alias n="83" Id="Name=.ctor" />
+    <Alias n="84" Id="(@3 @4 @47 Member=(@83 OverloadingParameters=[@23]))" />
+    <Alias n="85" Id="OverloadingParameters=[@65]" />
+    <Alias n="86" Id="(@3 @8 @13 Member=(Name=set_AverageAskPrice @85))" />
+    <Alias n="87" Id="(@3 @8 @13 Member=(Name=set_AverageBidPrice @85))" />
+    <Alias n="88" Id="(@1 @15 @40 Member=(Name=set_AveragePrice @85))" />
+    <Alias n="89" Id="(@3 @8 @13 Member=(Name=set_MaxAskPrice @85))" />
+    <Alias n="90" Id="(@3 @8 @13 Member=(Name=set_MaxBidPrice @85))" />
+    <Alias n="91" Id="(@1 @15 @40 Member=(Name=set_MaxPrice @85))" />
+    <Alias n="92" Id="(@3 @8 @13 Member=(Name=set_MinAskPrice @85))" />
+    <Alias n="93" Id="(@3 @8 @13 Member=(Name=set_MinBidPrice @85))" />
+    <Alias n="94" Id="(@1 @15 @40 Member=(Name=set_MinPrice @85))" />
+    <Alias n="95" Id="(@1 @15 @59 Member=(Name=set_TotalPrice @85))" />
+    <Alias n="96" Id="(@1 @15 @59 Member=(Name=set_TransactionPrice @85))" />
+    <Alias n="97" Id="OverloadingParameters=[(@67 @64 Type=Decimal)]" />
+    <Alias n="98" Id="(@1 @15 @49 Member=(Name=set_AskPrice @97))" />
+    <Alias n="99" Id="(@1 @15 @49 Member=(Name=set_BidPrice @97))" />
+    <Alias n="100" Id="OverloadingParameters=[(@63 @64 Type=Exception)]" />
+    <Alias n="101" Id="(@3 @4 @47 Member=(Name=&lt;PriceStatisticsSubscription&gt;b__9 @100))" />
+    <Alias n="102" Id="(@3 @4 @47 Member=(Name=&lt;PriceStatisticsSubscription&gt;b__b @100))" />
+    <Alias n="103" Id="(@3 @4 @47 Member=(Name=&lt;RawSpotPriceLoggingSubscription&gt;b__1 @100))" />
+    <Alias n="104" Id="(@3 @4 @47 Member=(Name=&lt;RawSpotPriceLoggingSubscription&gt;b__3 @100))" />
+    <Alias n="105" Id="OverloadingParameters=[(@67 @64 Type=Exception)]" />
+    <Alias n="106" Id="(@2 @11 @61 Member=(Name=&lt;RequestPrice&gt;b__1 @105))" />
+    <Alias n="107" Id="(@2 @11 @61 Member=(Name=&lt;RequestPrice&gt;b__3 @105))" />
+    <Alias n="108" Id="(@2 @11 @61 Member=(Name=&lt;RequestPriceStatistics&gt;b__c @105))" />
+    <Alias n="109" Id="(@2 @11 @61 Member=(Name=&lt;RequestPriceStatistics&gt;b__e @105))" />
+    <Alias n="110" Id="(@1 @15 @59 Member=(Name=set_TransactionPriceId OverloadingParameters=[(@63 @64 Type=Guid)]))" />
+    <Alias n="111" Id="(@1 @15 @49 Member=(Name=set_PriceId OverloadingParameters=[(@67 @64 Type=Guid)]))" />
+    <Alias n="112" Id="(@2 @11 @17 Member=(@83 OverloadingParameters=[(@67 @64 Type=IDisposable)]))" />
+    <Alias n="113" Id="(@2 @11 @17 Member=(Name=AddStream OverloadingParameters=[(@67 @64 Type=IDisposable)]))" />
+    <Alias n="114" Id="(@63 @64 Type=Int32)" />
+    <Alias n="115" Id="(@1 @15 @59 Member=(Name=set_Quantity OverloadingParameters=[@114]))" />
+    <Alias n="116" Id="(@3 @21 @22 Member=(Name=set_SalesMarkupInPips OverloadingParameters=[@114]))" />
+    <Alias n="117" Id="(@1 @15 @55 Member=(Name=set_SpreadInPips OverloadingParameters=[@114]))" />
+    <Alias n="118" Id="OverloadingParameters=[(@63 @64 Type=Int64)]" />
+    <Alias n="119" Id="(@51 @52 @53 Member=(Name=&lt;StartStreaming&gt;b__0 @118))" />
+    <Alias n="120" Id="(@51 @52 @53 Member=(Name=&lt;StartStreaming&gt;b__1 @118))" />
+    <Alias n="121" Id="(@3 @8 @13 Member=(Name=set_Count @118))" />
+    <Alias n="122" Id="(@1 @15 @59 Member=(Name=set_PriceTimestamp @118))" />
+    <Alias n="123" Id="(@2 @11 @17 Member=(@83 OverloadingParameters=[@33]))" />
+    <Alias n="124" Id="(@2 @11 @17 Member=(Name=set_ClientCallback OverloadingParameters=[@33]))" />
+    <Alias n="125" Id="(@3 @4 @24 Member=(Name=GetPriceResponseStream OverloadingParameters=[@37]))" />
+    <Alias n="126" Id="(@2 @11 @61 Member=(Name=RequestPrice OverloadingParameters=[@37]))" />
+    <Alias n="127" Id="OverloadingParameters=[@39]" />
+    <Alias n="128" Id="(@3 @4 @24 Member=(Name=&lt;GetPriceStatisticsStream&gt;b__6 @127))" />
+    <Alias n="129" Id="(@2 @11 @61 Member=(Name=&lt;RequestPrice&gt;b__0 @127))" />
+    <Alias n="130" Id="(@2 @11 @61 Member=(Name=&lt;RequestPrice&gt;b__2 @127))" />
+    <Alias n="131" Id="(@2 @11 @32 Member=(Name=PriceUpdated @127))" />
+    <Alias n="132" Id="(@2 @11 @61 Member=(Name=PriceUpdated @127))" />
+    <Alias n="133" Id="(@1 @15 @44 Member=(Name=set_Statistics OverloadingParameters=[@41]))" />
+    <Alias n="134" Id="(@2 @11 @61 Member=(Name=RequestPriceStatistics OverloadingParameters=[@43]))" />
+    <Alias n="135" Id="(@2 @11 @61 Member=(Name=&lt;RequestPriceStatistics&gt;b__b OverloadingParameters=[@45]))" />
+    <Alias n="136" Id="(@2 @11 @61 Member=(Name=&lt;RequestPriceStatistics&gt;b__d OverloadingParameters=[@45]))" />
+    <Alias n="137" Id="(@2 @11 @32 Member=(Name=PriceStatisticsUpdated OverloadingParameters=[@45]))" />
+    <Alias n="138" Id="(@2 @11 @61 Member=(Name=PriceStatisticsUpdated OverloadingParameters=[@45]))" />
+    <Alias n="139" Id="OverloadingParameters=[@50]" />
+    <Alias n="140" Id="(@3 @4 @5 Member=(Name=&lt;GetPriceResponseStream&gt;b__0 @139))" />
+    <Alias n="141" Id="(@3 @4 @5 Member=(Name=&lt;GetPriceResponseStream&gt;b__1 @139))" />
+    <Alias n="142" Id="(@3 @8 @9 Member=(Name=&lt;otherOptimizedMethods&gt;b__4 @139))" />
+    <Alias n="143" Id="(@3 @8 @9 Member=(Name=&lt;otherOptimizedMethods&gt;b__5 @139))" />
+    <Alias n="144" Id="(@3 @8 @34 Member=(Name=&lt;otherOptimizedMethods&gt;b__6 @139))" />
+    <Alias n="145" Id="(@3 @8 @9 Member=(Name=&lt;otherOptimizedMethods&gt;b__7 @139))" />
+    <Alias n="146" Id="(@3 @8 @9 Member=(Name=&lt;otherOptimizedMethods&gt;b__8 @139))" />
+    <Alias n="147" Id="(@3 @8 @34 Member=(Name=&lt;otherOptimizedMethods&gt;b__9 @139))" />
+    <Alias n="148" Id="(@3 @4 @47 Member=(Name=&lt;RawSpotPriceLoggingSubscription&gt;b__0 @139))" />
+    <Alias n="149" Id="(@3 @4 @47 Member=(Name=&lt;RawSpotPriceLoggingSubscription&gt;b__2 @139))" />
+    <Alias n="150" Id="(@3 @4 @47 Member=(Name=Record @139))" />
+    <Alias n="151" Id="(@1 @15 @38 Member=(Name=set_SpotPrice @139))" />
+    <Alias n="152" Id="(@63 @64 Type=String)" />
+    <Alias n="153" Id="(@3 @4 @24 Member=(Name=AuthorizeClient OverloadingParameters=[@152]))" />
+    <Alias n="154" Id="(@51 @52 @53 Member=(Name=GenerateSpotPrice OverloadingParameters=[@152]))" />
+    <Alias n="155" Id="(@1 @15 @38 Member=(Name=set_ClientName OverloadingParameters=[@152]))" />
+    <Alias n="156" Id="(@1 @15 @44 Member=(Name=set_ClientName OverloadingParameters=[@152]))" />
+    <Alias n="157" Id="(@1 @15 @59 Member=(Name=set_ClientName OverloadingParameters=[@152]))" />
+    <Alias n="158" Id="(@67 @64 Type=String)" />
+    <Alias n="159" Id="OverloadingParameters=[@158]" />
+    <Alias n="160" Id="(@3 @4 @24 Member=(Name=AuthorizeClient @159))" />
+    <Alias n="161" Id="(@2 @11 @19 Member=(Name=DestroyClientSession @159))" />
+    <Alias n="162" Id="(@2 @11 @19 Member=(Name=GetChannelForCallback @159))" />
+    <Alias n="163" Id="(@2 @11 @19 Member=(Name=GetPrimaryStream @159))" />
+    <Alias n="164" Id="Member=(Name=set_ClientName @159)" />
+    <Alias n="165" Id="(@1 @15 @49 Member=(Name=set_CurrencyPair @159))" />
+    <Alias n="166" Id="(@2 @11 @61 Member=(Name=SetupCallbackChannel @159))" />
+    <Alias n="167" Id="(@2 @11 @19 Member=(Name=ValidateForSecondaryRequests @159))" />
+    <Alias n="168" Id="(@3 @4 @24 Member=(Name=ExecuteTrade OverloadingParameters=[@58]))" />
+    <Alias n="169" Id="(@2 @11 @61 Member=(Name=RequestTrade OverloadingParameters=[@58]))" />
+    <Alias n="170" Id="(@2 @11 @32 Member=(Name=TradeExecuted OverloadingParameters=[@60]))" />
+    <Alias n="171" Id="(@2 @11 @61 Member=(Name=TradeExecuted OverloadingParameters=[@60]))" />
+    <Alias n="172" Id="(@3 @4 @24 Member=(Name=GetPriceStatisticsStream OverloadingParameters=[@43,(@63 @64 Type=(Name=IObservable @68 GenericArguments=[@39]))]))" />
+    <Alias n="173" Id="(@3 @4 @24 Member=(Name=GetPriceStatisticsStream OverloadingParameters=[@43,(@67 @64 Type=(Name=IObservable @68 GenericArguments=[@39]))]))" />
+    <Alias n="174" Id="(@2 @11 @19 Member=(Name=ForcefullyRemoveClientSession OverloadingParameters=[@158,@18]))" />
+    <Alias n="175" Id="(@2 @11 @19 Member=(Name=AddChannel OverloadingParameters=[@158,@33]))" />
+    <Alias n="176" Id="(@3 @8 @34 Member=(Name=&lt;GetPriceStatisticsObservable&gt;b__0 OverloadingParameters=[(@3 Type=(Name=&lt;&gt;f__AnonymousType0 GenericParameterCount=7 GenericArguments=[@65,@65,@65,@65,@65,@65,(@63 @64 Type=Int64)])),@50]))" />
+    <Alias n="177" Id="(@2 @11 @19 Member=(Name=AddStream OverloadingParameters=[@158,(@67 @64 Type=IDisposable),(@67 @64 Type=(Name=IObservable @68 GenericArguments=[@39]))]))" />
+    <Alias n="178" Id="(@3 @4 @24 Member=(Name=ProcessPriceStatistics OverloadingParameters=[@152,@16,@14]))" />
+    <Alias n="179" Id="(@1 @15 @49 Member=(@83 OverloadingParameters=[@152,@65,@65]))" />
+    <Alias n="180" Id="(@1 @15 @49 Member=(@83 OverloadingParameters=[@158,(@67 @64 Type=Decimal),(@67 @64 Type=Decimal)]))" />
+    <Alias n="181" Id="(@3 @4 @24 Member=(Name=Price OverloadingParameters=[@37,@50,@114]))" />
+    <Alias n="182" Id="(@26 @27 @28 Member=(Name=Price OverloadingParameters=[@152,@50,@114]))" />
+    <Alias n="183" Id="(@26 @27 @28 Member=(Name=PriceTrade OverloadingParameters=[@46,@16,@114,@50,(@63 @64 Type=Decimal&amp;),(@63 @64 Type=Decimal&amp;)]))" />
+    <Alias n="184" Id="(@3 @8 @13 Member=(@83 OverloadingParameters=[@65,@65,@65,@65,@65,@65,(@63 @64 Type=Int64)]))" />
+    <Alias n="185" Id="Member=.cctor" />
+    <Alias n="186" Id="Member=.ctor" />
+    <Alias n="187" Id="(@3 @4 @5 @186)" />
+    <Alias n="188" Id="(@3 @4 Type=(Name=&lt;&gt;c__DisplayClass9 ParentType=eTrader) @186)" />
+    <Alias n="189" Id="(@3 @8 @9 @186)" />
+    <Alias n="190" Id="(@2 @11 Type=(Name=&lt;&gt;c__DisplayClass9 ParentType=TradingService) @186)" />
+    <Alias n="191" Id="(@2 @11 @19 @186)" />
+    <Alias n="192" Id="(@3 @21 @22 @186)" />
+    <Alias n="193" Id="(@3 @4 @24 @186)" />
+    <Alias n="194" Id="(@26 @27 @28 @186)" />
+    <Alias n="195" Id="(@1 @15 @38 @186)" />
+    <Alias n="196" Id="(@1 @15 @40 @186)" />
+    <Alias n="197" Id="(@1 @15 @44 @186)" />
+    <Alias n="198" Id="(@51 @52 @53 @186)" />
+    <Alias n="199" Id="(@1 @15 @55 @186)" />
+    <Alias n="200" Id="(@1 @15 @59 @186)" />
+    <Alias n="201" Id="(@2 @11 @61 @186)" />
+    <Alias n="202" Id="(@2 @11 Type=(Name=&lt;&gt;c__DisplayClass9 ParentType=TradingService) Member=&lt;RequestTrade&gt;b__8)" />
+    <Alias n="203" Id="(@2 @11 @19 Member=DestroyAllSessions)" />
+    <Alias n="204" Id="(@3 @4 @24 Member=Dispose)" />
+    <Alias n="205" Id="(@3 @4 @47 Member=Dispose)" />
+    <Alias n="206" Id="(@1 @15 @49 Member=get_AskPrice)" />
+    <Alias n="207" Id="(@3 @21 @22 Member=get_AuthorizedClients)" />
+    <Alias n="208" Id="(@3 @8 @13 Member=get_AverageAskPrice)" />
+    <Alias n="209" Id="(@3 @8 @13 Member=get_AverageBidPrice)" />
+    <Alias n="210" Id="(@1 @15 @40 Member=get_AveragePrice)" />
+    <Alias n="211" Id="(@1 @15 @49 Member=get_BidPrice)" />
+    <Alias n="212" Id="(@1 @15 @42 Member=get_BuySell)" />
+    <Alias n="213" Id="(@1 @15 @57 Member=get_BuySell)" />
+    <Alias n="214" Id="(@1 @15 @59 Member=get_BuySell)" />
+    <Alias n="215" Id="(@2 @11 @17 Member=get_ClientCallback)" />
+    <Alias n="216" Id="Member=get_ClientName" />
+    <Alias n="217" Id="(@1 @15 @36 @216)" />
+    <Alias n="218" Id="(@1 @15 @38 @216)" />
+    <Alias n="219" Id="(@1 @15 @42 @216)" />
+    <Alias n="220" Id="(@1 @15 @44 @216)" />
+    <Alias n="221" Id="(@1 @15 @57 @216)" />
+    <Alias n="222" Id="(@1 @15 @59 @216)" />
+    <Alias n="223" Id="(@1 @15 @36 Member=get_CurrencyPair)" />
+    <Alias n="224" Id="(@1 @15 @42 Member=get_CurrencyPair)" />
+    <Alias n="225" Id="(@1 @15 @49 Member=get_CurrencyPair)" />
+    <Alias n="226" Id="(@2 @11 @17 Member=get_DisposableStreams)" />
+    <Alias n="227" Id="(@3 @8 @13 Member=get_MaxAskPrice)" />
+    <Alias n="228" Id="(@3 @8 @13 Member=get_MaxBidPrice)" />
+    <Alias n="229" Id="(@1 @15 @40 Member=get_MaxPrice)" />
+    <Alias n="230" Id="(@3 @8 @13 Member=get_MinAskPrice)" />
+    <Alias n="231" Id="(@3 @8 @13 Member=get_MinBidPrice)" />
+    <Alias n="232" Id="(@1 @15 @40 Member=get_MinPrice)" />
+    <Alias n="233" Id="(@1 @15 @57 Member=get_Price)" />
+    <Alias n="234" Id="(@1 @15 @49 Member=get_PriceId)" />
+    <Alias n="235" Id="(@51 @52 @53 Member=get_PriceStream)" />
+    <Alias n="236" Id="(@1 @15 @57 Member=get_PriceTimestamp)" />
+    <Alias n="237" Id="(@2 @11 @17 Member=get_PrimaryStream)" />
+    <Alias n="238" Id="(@1 @15 @36 Member=get_ProductType)" />
+    <Alias n="239" Id="(@1 @15 @42 Member=get_ProductType)" />
+    <Alias n="240" Id="(@1 @15 @57 Member=get_ProductType)" />
+    <Alias n="241" Id="(@1 @15 @57 Member=get_Quantity)" />
+    <Alias n="242" Id="(@3 @21 @22 Member=get_SalesMarkupInPips)" />
+    <Alias n="243" Id="(@1 @15 @38 Member=get_SpotPrice)" />
+    <Alias n="244" Id="(@3 @4 @47 Member=get_SpotPriceObservable)" />
+    <Alias n="245" Id="(@1 @15 @44 Member=get_Statistics)" />
+    <Alias n="246" Id="(@3 @21 @22 Member=GetTradingConfig)" />
+    <Alias n="247" Id="(@2 @11 @17 Member=Kill)" />
+    <Alias n="248" Id="(@3 @4 @47 Member=PriceStatisticsSubscription)" />
+    <Alias n="249" Id="(@3 @8 @13 Member=PrintAskPriceStats)" />
+    <Alias n="250" Id="(@3 @8 @13 Member=PrintBidPriceStats)" />
+    <Alias n="251" Id="(@3 @4 @47 Member=RawSpotPriceLoggingSubscription)" />
+    <Alias n="252" Id="(@3 @4 @24 Member=Start)" />
+    <Alias n="253" Id="(@3 @4 @47 Member=StartStreaming)" />
+    <Alias n="254" Id="(@51 @52 @53 Member=StartStreaming)" />
+    <Alias n="255" Id="(@51 @52 @53 Member=StopStreaming)" />
+    <Alias n="256" Id="Member=ToString" />
+    <Alias n="257" Id="(@3 @8 @13 @256)" />
+    <Alias n="258" Id="(@1 @15 @36 @256)" />
+    <Alias n="259" Id="(@1 @15 @38 @256)" />
+    <Alias n="260" Id="(@1 @15 @40 @256)" />
+    <Alias n="261" Id="(@1 @15 @42 @256)" />
+    <Alias n="262" Id="(@1 @15 @44 @256)" />
+    <Alias n="263" Id="(@1 @15 @49 @256)" />
+    <Alias n="264" Id="(@1 @15 @57 @256)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="046c5558-edc4-4854-9a2e-0a87b0efeef4.OutputPathUri" Value="file:///C:/Users/leunbi/documents/visual studio 2010/Projects/FXTrader/bin/Server/FXTrader.ExternalAdapter.dll" />
+    <Path Id="6c8d9984-64c0-4ae4-b0bf-89ad2263df9b.OutputPathUri" Value="file:///C:/Users/leunbi/documents/visual studio 2010/Projects/FXTrader/bin/Server/FXTrader.FXPricer.dll" />
+    <Path Id="9d0be2f6-866c-4565-9a77-ed36bcf52588.OutputPathUri" Value="file:///C:/Users/leunbi/documents/visual studio 2010/Projects/FXTrader/bin/Server/FXTrader.ETrader.dll" />
+    <Path Id="ec5ef413-1a14-4ad9-9ee2-9281f86196e5.OutputPathUri" Value="file:///C:/Users/leunbi/documents/visual studio 2010/Projects/FXTrader/bin/Server/ExternalSimulator.PriceGenerator.dll" />
+    <Path Id="f4419421-150e-4320-a838-46fa1f608b33.OutputPathUri" Value="file:///C:/Users/leunbi/documents/visual studio 2010/Projects/FXTrader/bin/Server/FXTrader.Common.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/leunbi/documents/visual studio 2010/Projects/FXTrader" />
+  </Paths>
+</DirectedGraph>

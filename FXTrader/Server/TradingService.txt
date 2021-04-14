@@ -1,0 +1,48 @@
+[INFO ][14-01-25 19:48:35,534] [1] [Program] -- begin config --
+===========
+Simulation:
+===========
+PriceTickIntervalInMilliseconds=1000
+PriceLongOperationTimeInMilliseconds=-1
+TradeLongOperationTimeInMilliseconds=-1
+==================
+Logging & tuning:
+==================
+LogRawSpotPriceLogging=False
+RawSpotPriceLoggingThrottleInMilliseconds=0
+LogRawPriceStatistics=False
+RawPriceStatisticsReadIntervalInMilliseconds=500
+LogPriceResponse=True
+LogPriceStatisticsResponse=False
+==================
+Business:
+==================
+SalesMarkupInPips=1000
+AuthorizedClients=Bilbos,Phantom,Delta,Theta,Gamma,Vega,Rho,UTS
+-- end config --
+
+[INFO ][14-01-25 19:48:49,808] [4] [TradingService] PriceRequest Spot - GBPUSD, client = Bilbos.
+[INFO ][14-01-25 19:48:49,821] [4] [ClientSessions] Client channel successfully created for Bilbos.
+[INFO ][14-01-25 19:48:49,822] [4] [TradingService] PriceStream channel setup for Bilbos, streaming Spot - GBPUSD to client.
+[INFO ][14-01-25 19:48:49,897] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59986/1.70006, PriceId=27d5b272-290a-4293-9714-a8e02730dae9, ClientName=Bilbos
+[INFO ][14-01-25 19:48:50,879] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59330/1.69350, PriceId=b72cb7a4-26c1-4604-a186-d2de21ac49c6, ClientName=Bilbos
+[INFO ][14-01-25 19:48:51,522] [4] [TradingService] PriceStatisticsRequest Spot - GBPUSD, client = Bilbos.
+[INFO ][14-01-25 19:48:51,903] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.60091/1.70111, PriceId=8a589b51-767e-4720-9d7c-7b70a91fefda, ClientName=Bilbos
+[INFO ][14-01-25 19:48:52,905] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59755/1.69775, PriceId=762f839e-f914-4fc2-be3a-6631447af312, ClientName=Bilbos
+[INFO ][14-01-25 19:48:53,920] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59509/1.69529, PriceId=2cff7a60-690a-4016-843d-248d16d85c17, ClientName=Bilbos
+[INFO ][14-01-25 19:48:53,995] [4] [TradingService] TradeRequest sent: TradeRequest: Spot Buy 1000 ccyPair=GBPUSD, Price=1.59509/1.69529, PriceId=2cff7a60-690a-4016-843d-248d16d85c17.
+[INFO ][14-01-25 19:48:54,001] [6] [TradingService] TradeResponse sent: FXTrader.Common.TradeResponse
+[INFO ][14-01-25 19:48:54,934] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59938/1.69958, PriceId=5b7eaea4-5659-4484-9f3d-bec85cfc0bbd, ClientName=Bilbos
+[INFO ][14-01-25 19:48:55,948] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.60025/1.70045, PriceId=d9d45155-5214-421f-87e2-8405412a9808, ClientName=Bilbos
+[INFO ][14-01-25 19:48:56,962] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.60190/1.70210, PriceId=d6aa75d2-11f7-466c-af25-5895ce5c1f09, ClientName=Bilbos
+[INFO ][14-01-25 19:48:57,982] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59649/1.69669, PriceId=7613c17a-7d49-4755-b3bf-fc3c4472d3c9, ClientName=Bilbos
+[INFO ][14-01-25 19:48:58,996] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59345/1.69365, PriceId=0a26163f-328d-4ef1-9f56-59deb6154497, ClientName=Bilbos
+[INFO ][14-01-25 19:49:00,004] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59801/1.69821, PriceId=9cfb765e-c9be-4d38-bee8-3e7413b9fb2d, ClientName=Bilbos
+[INFO ][14-01-25 19:49:01,018] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59385/1.69405, PriceId=9b306f15-2b82-4085-a860-c67442e3859d, ClientName=Bilbos
+[INFO ][14-01-25 19:49:02,032] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59367/1.69387, PriceId=69a26277-5f3a-42a3-84e0-a162cf89b864, ClientName=Bilbos
+[INFO ][14-01-25 19:49:03,067] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59232/1.69252, PriceId=908acc9b-5007-4b68-a308-1161757d1757, ClientName=Bilbos
+[INFO ][14-01-25 19:49:04,094] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59850/1.69870, PriceId=2a887608-77e8-47ad-939a-8b2c841df60f, ClientName=Bilbos
+[INFO ][14-01-25 19:49:05,073] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59238/1.69258, PriceId=9a13217d-2b13-41f6-ba57-f6713ba32b3f, ClientName=Bilbos
+[INFO ][14-01-25 19:49:06,088] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.59742/1.69762, PriceId=4591d789-eced-493c-a410-ebb939c1acd3, ClientName=Bilbos
+[INFO ][14-01-25 19:49:07,100] [10] [TradingService] PriceResponse sent: SpotPrice=ccyPair=GBPUSD, Price=1.60112/1.70132, PriceId=0b0856d5-5007-449d-9477-2c204353023e, ClientName=Bilbos
+[WARN ][14-01-25 19:49:07,382] [12] [ClientSessions] Client Bilbos was forcefully removed from channel.

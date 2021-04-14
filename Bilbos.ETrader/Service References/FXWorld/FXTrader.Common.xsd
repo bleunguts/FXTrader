@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/FXTrader.Common" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/FXTrader.Common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="PriceRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrencyPair" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductType" type="tns:ProductType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PriceRequest" nillable="true" type="tns:PriceRequest" />
+  <xs:simpleType name="ProductType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Spot" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ProductType" nillable="true" type="tns:ProductType" />
+  <xs:complexType name="TradeRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BuySell" type="tns:BuySell" />
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="tns:SpotPrice" />
+      <xs:element minOccurs="0" name="PriceTimestamp" type="xs:long" />
+      <xs:element minOccurs="0" name="ProductType" type="tns:ProductType" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TradeRequest" nillable="true" type="tns:TradeRequest" />
+  <xs:simpleType name="BuySell">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Buy" />
+      <xs:enumeration value="Sell" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="BuySell" nillable="true" type="tns:BuySell" />
+  <xs:complexType name="SpotPrice">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AskPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BidPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CurrencyPair" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PriceId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SpotPrice" nillable="true" type="tns:SpotPrice" />
+  <xs:complexType name="PriceStatisticsRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BuySell" type="tns:BuySell" />
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrencyPair" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductType" type="tns:ProductType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PriceStatisticsRequest" nillable="true" type="tns:PriceStatisticsRequest" />
+  <xs:complexType name="PriceResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SpotPrice" type="tns:SpotPrice" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PriceResponse" nillable="true" type="tns:PriceResponse" />
+  <xs:complexType name="SpreadedPriceResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PriceResponse">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SpreadedPriceResponse" nillable="true" type="tns:SpreadedPriceResponse" />
+  <xs:complexType name="TradeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BuySell" type="tns:BuySell" />
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PriceTimestamp" type="xs:long" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransactionPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransactionPriceId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TradeResponse" nillable="true" type="tns:TradeResponse" />
+  <xs:complexType name="PriceStatisticsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Statistics" nillable="true" type="tns:PriceStatistics" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PriceStatisticsResponse" nillable="true" type="tns:PriceStatisticsResponse" />
+  <xs:complexType name="PriceStatistics">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AveragePrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MaxPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MinPrice" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PriceStatistics" nillable="true" type="tns:PriceStatistics" />
+</xs:schema>

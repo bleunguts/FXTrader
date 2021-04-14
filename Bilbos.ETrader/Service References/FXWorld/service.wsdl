@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TradingService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_ITradingService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/FXTrader.Common" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITradingService_RequestPrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestPrice" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_RequestPrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_RequestTrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestTrade" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_RequestTrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestTradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_RequestPriceStatistics_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestPriceStatistics" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_RequestPriceStatistics_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestPriceStatisticsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_PriceUpdated_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:PriceUpdated" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_TradeExecuted_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:TradeExecuted" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_PriceStatisticsUpdated_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:PriceStatisticsUpdated" />
+  </wsdl:message>
+  <wsdl:portType name="ITradingService">
+    <wsdl:operation name="RequestPrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingService/RequestPrice" message="tns:ITradingService_RequestPrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/RequestPriceResponse" message="tns:ITradingService_RequestPrice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestTrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingService/RequestTrade" message="tns:ITradingService_RequestTrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/RequestTradeResponse" message="tns:ITradingService_RequestTrade_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestPriceStatistics">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingService/RequestPriceStatistics" message="tns:ITradingService_RequestPriceStatistics_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/RequestPriceStatisticsResponse" message="tns:ITradingService_RequestPriceStatistics_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PriceUpdated">
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/PriceUpdated" message="tns:ITradingService_PriceUpdated_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TradeExecuted">
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/TradeExecuted" message="tns:ITradingService_TradeExecuted_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PriceStatisticsUpdated">
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/PriceStatisticsUpdated" message="tns:ITradingService_PriceStatisticsUpdated_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_ITradingService" type="tns:ITradingService">
+    <wsp:PolicyReference URI="#NetTcpBinding_ITradingService_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="RequestPrice">
+      <soap12:operation soapAction="http://tempuri.org/ITradingService/RequestPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestTrade">
+      <soap12:operation soapAction="http://tempuri.org/ITradingService/RequestTrade" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestPriceStatistics">
+      <soap12:operation soapAction="http://tempuri.org/ITradingService/RequestPriceStatistics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PriceUpdated">
+      <soap12:operation soapAction="http://tempuri.org/ITradingService/PriceUpdated" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TradeExecuted">
+      <soap12:operation soapAction="http://tempuri.org/ITradingService/TradeExecuted" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PriceStatisticsUpdated">
+      <soap12:operation soapAction="http://tempuri.org/ITradingService/PriceStatisticsUpdated" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TradingService">
+    <wsdl:port name="NetTcpBinding_ITradingService" binding="tns:NetTcpBinding_ITradingService">
+      <soap12:address location="net.tcp://localhost/FXTrader" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost/FXTrader</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
