@@ -8,3 +8,8 @@ Demo instructions:
 2. Start the WPF GUI Bilbos.ETrader
 
 ![screenshot Logo](eTrader.jpg)
+
+
+This demo was developed when I was writing the paper "Optimizing financial markets in C# .NET" published in Springer Series.  I presented the publication in APCASE 2014 engineering conference focusing on engineering aspects of software education.
+
+(Chapter 27 in Computational Intelligence and Efficiency in Engineering Systems)[https://www.springer.com/gp/book/9783319157191]
