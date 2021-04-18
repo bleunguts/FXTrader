@@ -12,6 +12,8 @@ This application was developed in accordance to the "Optimizing financial market
 ## Publication
 This demo was developed when I was writing the paper "Optimizing financial markets in C# .NET" published in Springer Series.  I presented the publication in APCASE 2014 engineering conference focusing on engineering aspects of software education.
 
+You can find the publication in the engineering book 'Computational Intelligence and Efficiency in Engineering Systems Publication (Chapter 27)' from this [link](https://www.springer.com/gp/book/9783319157191)
+
 APCASE '2014 Bali, Indonesia
 ![apcase1](apcase1.JPG)
 
@@ -22,4 +24,4 @@ What a great day in sunny Bali, lots of exciting engineering seminars and met so
 Zenon and I, Zenon is the chair of the APCASE organization.  He is also the head of department engineering at University of Technology, Sydney which I have had the fortune to both study and work for him!
 
 
-Publication Computational Intelligence and Efficiency in Engineering Systems Publication (Chapter 27) can be found [here](https://www.springer.com/gp/book/9783319157191)
+
