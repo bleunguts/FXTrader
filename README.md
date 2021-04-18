@@ -21,7 +21,7 @@ What a great day in sunny Bali, lots of exciting engineering seminars and met so
 
 ![apcase2](apcase2.JPG)
 
-Zenon and I, Zenon is the chair of the APCASE organization.  He is also the head of department engineering at University of Technology, Sydney which I have had the fortune to both study and work for him!
+Zenon is one of the primary organises of engineering conferences in Asia Pacific.  The APCASE was a great success with a lot of academic debates on heuristics and also a great taste of hospitality from the Bali Dynasty Resort organises.  He is also the programme directory software engineering at University of Technology, Sydney which I have had the fortune to both study under and work for!
 
 
 
