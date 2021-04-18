@@ -6,3 +6,5 @@ This application was developed in accordance to the "Optimizing financial market
 Demo instructions:
 1. Start the console WCF service FXTrader.ExternalAdapter.TcpHost
 2. Start the WPF GUI Bilbos.ETrader
+
+![screenshot Logo](https://bleunguts.github.io/bleunguts/FXTrader/eTrader.jpg)
