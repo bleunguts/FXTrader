@@ -21,7 +21,7 @@ What a great day in sunny Bali, lots of exciting engineering seminars and met so
 
 ![apcase2](apcase2.JPG)
 
-Zenon is one of the primary organisers of engineering conferences in Asia Pacific.  The APCASE was a great success with a lot of academic debates on heuristics and also a great taste of hospitality from the Bali Dynasty Resort organises.  He is also the programme directory software engineering at University of Technology, Sydney whom I have had the fortune to both study under and work for!
+Zenon is one of the primary organisers of engineering conferences in Asia Pacific.  The APCASE was a great success with a lot of academic debates on heuristics and also a great taste of hospitality from the Bali Dynasty Resort organises.  He is also the programme directory software engineering at University of Technology, Sydney whom I have had the fortune to both be a student and employee of!
 
 
 
